@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable named name and set its value to Dane. 
+// We check if the name is an exact match to Mary. 
+// If it is, console.log 'Hi, Mary!'
+// Name does not match Mary, so we console.log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a string variable named secret
+// We create a number variable named code. The value of code is 123.
+// We check if code is an exact match for 123, then the string variable secret's value is set to 'super' 
+// and the value of code is multiplied by 2. 
+// We check if the code's value is greater than 250, but it is not so this if statement is ignored.
+// The value of code is 123 so we console.log 'super' and code is multiplied by 2 and the value of code becomes 246.
 
 //CODE
 /*
@@ -70,10 +72,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable named isStudent and set its boolean value to true.
+// We create a variable named age and set its number value to 34.
+// We create a variable named zip and set its number value to 55407.
+// We check if isStudent is true and zip is greater than 80000
+// We check if isStudent is false or age is less than 30 
+// We check if isStudent is true, it is, and console.log 'Welcome to Prime!'
+// We don't check the last else since the else if statement beforehand ran.
 
 //CODE
 /*
@@ -130,12 +135,15 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne should be set to 'blue
 let colorOne = 'red';
+// FIX - colorTwo should be set to 'red'
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+// FIX - also set colorTwo = 'purple'
 }
 */
 
@@ -147,6 +155,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//FIX - use && instead of ||
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,6 +168,13 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+//FIX - if(age >= minAge) {
+    console.log('enter');
+} else {
+  console.log('no entry')
+}
+//END of FIX
 
 if(minAge <= age) {
   console.log('no entry');
